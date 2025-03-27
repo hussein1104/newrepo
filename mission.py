@@ -14,4 +14,7 @@ class Mission:
 if __name__ == "__main__":
     mission = Mission("Alien Invasion", "Destroy the alien planet and save humanity")
     db_name = "******"
+    db_engine = "******"
+    mission.set_db_name(db_name)
+    mission.set_db_engine(db_engine)
     print(mission)
