@@ -15,6 +15,7 @@ if __name__ == "__main__":
     mission = Mission("Alien Invasion", "Destroy the alien planet and save humanity")
     db_name = "REMOVED"
     db_engine = "POSTGRESQL"
+    bank_of_ghana = "*******SecretRemoved*********$^UIY"
     mission.set_db_name(db_name)
     mission.set_db_engine(db_engine)
 
