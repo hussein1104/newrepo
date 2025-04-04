@@ -13,8 +13,12 @@ class Mission:
         return self.mission_informations
 if __name__ == "__main__":
     mission = Mission("Alien Invasion", "Destroy the alien planet and save humanity")
-    db_name = "******"
-    db_engine = "******"
+    db_name = "HORIZONTAL_HORIZONTAL"
+    db_engine = "POSTGRESQL"
     mission.set_db_name(db_name)
     mission.set_db_engine(db_engine)
-    print(mission)
+
+    # print(mission)
+
+    numbers = [1,2,3,4,5,6,7,8,9,10]
+    print(numbers.any())
