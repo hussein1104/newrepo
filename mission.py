@@ -13,7 +13,7 @@ class Mission:
         return self.mission_informations
 if __name__ == "__main__":
     mission = Mission("Alien Invasion", "Destroy the alien planet and save humanity")
-    db_name = "HORIZONTAL_HORIZONTAL"
+    db_name = "REMOVED"
     db_engine = "POSTGRESQL"
     mission.set_db_name(db_name)
     mission.set_db_engine(db_engine)
